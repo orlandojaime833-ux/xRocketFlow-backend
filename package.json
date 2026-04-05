@@ -1,0 +1,27 @@
+{
+  "name": "xrocket-flow-bot",
+  "version": "2.0.0",
+  "description": "Bot de vendas com IA Gemini e pagamentos xRocket para Telegram",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "telegram-bot",
+    "xrocket",
+    "gemini-ai",
+    "ecommerce-bot",
+    "cryptopayments"
+  ],
+  "author": "xRocket Flow",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "axios": "^1.6.2",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
